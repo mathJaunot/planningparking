@@ -1,0 +1,9 @@
+<zk xmlns:n="native">
+    <!-- Begin Menu -->
+    <menubar id="menubar" autodrop="true">
+       	<menuitem label="Planning Postes" href="/planningPostes.zul"  />
+        <menuitem label="Liste Employés" href="/listeSalarie.zul" />
+        <menuitem label="Liste Employeurs" href="/listeEmployeur.zul"  />
+        <menuitem label="Planning Employés" href="/planPersonnel.zul"  />
+    </menubar>
+</zk>

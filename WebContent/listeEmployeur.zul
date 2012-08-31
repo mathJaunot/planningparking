@@ -1,0 +1,12 @@
+<?page title="Liste Employeur" contentType="text/html;charset=UTF-8"?>
+<zk>
+ <div width="100%" height="100%" apply="ctrl.GererEmployeurs" > 
+ <include id="list" src="/component/menu.zul" ></include>
+ 	  <button label="Enregistrer" height="30px"  id="save" />
+	<spreadsheet id="spreadsheet" src="/modelesExcel/employeurs.xlsx"  showToolbar="true"	
+			maxrows="200" 
+			maxcolumns="40"
+			width="100%"
+			height="92%"></spreadsheet>
+			</div>
+</zk>

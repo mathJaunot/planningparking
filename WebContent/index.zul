@@ -1,0 +1,22 @@
+<?page title="Login"?>
+<vbox height="100%" width="100%" pack="center" align="center">
+		<div height="100%" width="100%" align="center">
+<window id="loginWin" border="normal" width="300px"
+    title="Bienvenue"
+    >
+    
+        <h:form id="f" name="f" action="j_spring_security_check" method="POST"
+    xmlns:h="http://www.w3.org/1999/xhtml">
+    <grid>
+        <rows>
+            <row> Login :  <textbox id="u" name="j_username"/></row>
+            <row> Mot de passe : <textbox id="p" type="password" name="j_password"/></row>
+        </rows>
+    </grid>
+    <h:input type="submit" value="Valider"/>
+    <label id="mesgLbl"/>
+    
+    
+        </h:form>
+  
+</window></div></vbox>
